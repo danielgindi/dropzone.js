@@ -1,0 +1,50 @@
+{
+  "name": "@danielgindi/dropzone",
+  "version": "1.0.0",
+  "description": "A simple lib for creating styleable dropzones for files",
+  "main": "dist/lib.cjs.min.js",
+  "module": "dist/lib.es6.min.js",
+  "broswer": "dist/lib.umd.min.js",
+  "author": {
+    "name": "Daniel Cohen Gindi",
+    "email": "danielgindi@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/danielgindi/dropzone.js.git"
+  },
+  "scripts": {
+    "build": "npm run lint && node ./scripts/build.js",
+    "lint": "eslint -f codeframe ./",
+    "lint-fix": "eslint -f codeframe --fix ./",
+    "prepublishOnly": "npm run build",
+    "prepare": "husky"
+  },
+  "bugs": {
+    "url": "https://github.com/danielgindi/dropzone/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/danielgindi/dropzone/blob/master/LICENSE"
+    }
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.26.9",
+    "@babel/preset-env": "^7.26.9",
+    "@babel/runtime": "^7.26.9",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^28.0.2",
+    "@rollup/plugin-node-resolve": "^16.0.0",
+    "@rollup/plugin-terser": "^0.4.4",
+    "babelify": "^10.0.0",
+    "core-js": "^3.40.0",
+    "eslint": "^9.20.1",
+    "eslint-formatter-codeframe": "^7.32.1",
+    "fs-extra": "^11.3.0",
+    "globals": "^15.15.0",
+    "husky": "^9.1.7",
+    "pinst": "^3.0.0",
+    "rollup": "^4.34.8"
+  }
+}
