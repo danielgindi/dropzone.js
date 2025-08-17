@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "A simple lib for creating styleable dropzones for files",
   "main": "dist/lib.cjs.min.js",
-  "module": "dist/lib.es6.min.js",
+  "module": "lib/index.js",
   "broswer": "dist/lib.umd.min.js",
+  "types": "lib/index.d.ts",
   "author": {
     "name": "Daniel Cohen Gindi",
     "email": "danielgindi@gmail.com"
