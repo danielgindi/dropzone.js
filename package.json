@@ -1,6 +1,6 @@
 {
   "name": "@danielgindi/dropzone",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple lib for creating styleable dropzones for files",
   "main": "dist/lib.cjs.min.js",
   "module": "lib/index.js",
